@@ -16,7 +16,8 @@
 
 #include "Adafruit_Fingerprint.h"
 #ifdef __AVR__
-    #include <util/delay.h>
+     #include"delay.h"
+    
     #include <SoftwareSerial.h>
 #endif
 
